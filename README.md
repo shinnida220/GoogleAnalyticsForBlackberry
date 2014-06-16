@@ -14,10 +14,10 @@ import me.folorunsho.GoogleAanalytics.*;
 
 
 Use the getInstance Class to setup your identity..
- GATracker.getInstance("Your Google Analytics Key Here", "Your App Name Here");
+ 	GATracker.getInstance("Your Google Analytics Key Here", "Your App Name Here");
 
 Call the addToQueue to notify GA of your presence..
- GATracker.addToQueue(new ScreenViewRequest("Screen Name here"));
+	GATracker.addToQueue(new ScreenViewRequest("Screen Name here"));
 
 
 
